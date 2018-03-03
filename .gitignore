@@ -11,3 +11,4 @@ BuildingEscape/Content/StarterContent
 *.VC.db
 *.VC.opendb
 */.vs/BuildingEscape/v15/ipch
+*/.vs/BuildingEscape/v15/.suo
