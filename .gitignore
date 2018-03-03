@@ -8,7 +8,6 @@
 BuildingEscape/Content/StarterContent
 
 # VS generated files
-*.VC.db
-*.VC.opendb
+*.VC.db*
 */.vs/BuildingEscape/v15/ipch
-*/.vs/BuildingEscape/v15/.suo
+BuildingEscape/.vs/BuildingEscape/v15/.suo
