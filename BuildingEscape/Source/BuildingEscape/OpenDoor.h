@@ -21,13 +21,16 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	float OpenAngle = 90.f;
 
-public:	
-	// Sets default values for this component's properties
+	AActor * ActorThatOpens;
+
+private:	
 	UOpenDoor();
 
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
+
+	void OpenDoor();
 
 public:	
 	// Called every frame
